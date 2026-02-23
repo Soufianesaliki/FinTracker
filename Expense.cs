@@ -8,12 +8,12 @@ namespace FinTracker
         public string? Category { get; set; }
         public DateTime Date { get; set; }
 
-        public Expense(string name, double amount, string category, DateTime date)
+        public Expense(string name, double amount, string category)
         {
             Name = name;
             Amount = amount;
             Category = category;
-            Date = date;
+            Date = DateTime.Now;
         }
 
         public override string ToString()
