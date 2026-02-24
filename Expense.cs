@@ -18,7 +18,7 @@ namespace FinTracker
 
         public override string ToString()
         {
-            return $"[{Id}] {Date:yyyy-mm-dd} | {Category, -15} | {Name, -20} | {Amount:C}";
+            return $"[{Id}] {Date:yyyy-MM-dd} | {Category, -15} | {Name, -20} | {Amount:C}";
         }
     }
 }
