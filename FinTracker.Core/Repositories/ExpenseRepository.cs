@@ -1,8 +1,9 @@
+using FinTracker.Core.Models;
 using System.Text.Json;
 
-namespace FinTracker
+namespace FinTracker.Core.Repositories
 {
-    class ExpenseRepository
+    public class ExpenseRepository
     {
         private string _filePath;
         private List<Expense> _expenses;

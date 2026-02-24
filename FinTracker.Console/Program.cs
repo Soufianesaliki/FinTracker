@@ -1,4 +1,8 @@
-﻿namespace FinTracker
+﻿using FinTracker.Core.Models;
+using FinTracker.Core.Repositories;
+using FinTracker.Core.Services;
+
+namespace FinTracker
 {
     class Program
     {

@@ -1,8 +1,9 @@
-using System.ComponentModel;
+using FinTracker.Core.Models;
+using FinTracker.Core.Repositories;
 
-namespace FinTracker
+namespace FinTracker.Core.Services
 {
-    class ExpenseService
+    public class ExpenseService
     {
         private ExpenseRepository _repository;
 

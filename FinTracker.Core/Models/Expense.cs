@@ -1,4 +1,4 @@
-namespace FinTracker
+namespace FinTracker.Core.Models
 {
     public class Expense
     {
